@@ -2,7 +2,7 @@ import argparse
 from typing import List
 
 
-def sort(width, height, length, mass) -> List[str]:
+def sort(width: float, height: float, length: float, mass: float) -> List[str]:
     """
     Sorts a package based on its dimensions and mass.
 
